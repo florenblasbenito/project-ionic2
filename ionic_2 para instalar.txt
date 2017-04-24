@@ -1,0 +1,20 @@
+CURSO DE IONIC
+
+
+Para descargar Ionic hay que en la terminal clicar:
+
+npm install ionic cordova -g
+
+
+
+Luego hay que descargar el proyecto y se hace con:
+
+ionic start "aquí la ruta de la carpeta donde la queramos tener" --v2
+
+apunte--> se pone --v2 para decirle que queremos la versión 2 de Ionic
+
+Y luego una vez que la ha descargado bien, para correr la aplicación hay que poner en el terminal:
+
+"Ir a la ruta de la carpeta" y poner: ionic serve
+
+con esto automaticamente lo habríría en el navegador en el puerto que indica en el terminal
