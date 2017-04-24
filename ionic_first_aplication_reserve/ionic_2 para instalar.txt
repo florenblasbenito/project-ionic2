@@ -18,3 +18,9 @@ Y luego una vez que la ha descargado bien, para correr la aplicación hay que pon
 "Ir a la ruta de la carpeta" y poner: ionic serve
 
 con esto automaticamente lo habríría en el navegador en el puerto que indica en el terminal
+
+
+--------------
+
+
+Poniendo "ionic serve -l" en vez de "ionic serve" lo habríría en las tres plataformas, ios, android y windows.
