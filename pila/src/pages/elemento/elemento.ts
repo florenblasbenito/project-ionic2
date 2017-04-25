@@ -15,12 +15,12 @@ export class ElementoPage {
     constructor(public navCtrl: NavController,
     public NavParams: NavParams) {
 
-this.numeroPag = NavParams.data;
+this.numeroPag = NavParams.get('numero');
 
     }
 
 agregarPagina(){
-  this.navCtrl.push(ElementoPage, this.numeroPag + 1);
+  this.navCtrl.push(ElementoPage, {numero: this.numeroPag + 1});
   
 }
 

@@ -12,7 +12,7 @@ export class HomePage {
   constructor(public navCtrl: NavController) {}
 
 agregarPagina(){
-  this.navCtrl.push(ElementoPage, 1);
+  this.navCtrl.push(ElementoPage, {numero: 1});
   
 }
 
